@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(*)"
+      "WebFetch(*)",
+      "Bash(git ls-remote:*)",
+      "Bash(git fetch:*)",
+      "Bash(git show:*)",
+      "Bash(git log:*)",
+      "Bash(git init:*)",
+      "Bash(git merge-base:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git diff:*)",
+      "Bash(mkdir:*)",
+      "Bash(cd:*)",
+      "Bash(awk:*)",
+      "Bash(sort:*)"
     ]
   }
 }
